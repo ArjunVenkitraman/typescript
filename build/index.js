@@ -8,7 +8,7 @@ class Employee {
         this.project = project;
     }
     display() {
-        let dis = `Employee id ${this.emp_id}\nEmployee Name : ${this.name}\nEmployee Designation : ${this.designation}\nEmployee salary : ${this.salary}\nEmployee Project : ${this.project}\n`;
+        let dis = `Employee id :: ${this.emp_id}\nEmployee Name : ${this.name}\nEmployee Designation : ${this.designation}\nEmployee salary : ${this.salary}\nEmployee Project : ${this.project}\n`;
         // console.log(`Employee id : ${this.emp_id}`);
         // console.log(`Employee Name : ${this.name}`);
         // console.log(`Employee Designation : ${this.designation}`)
