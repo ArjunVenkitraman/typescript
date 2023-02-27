@@ -1,9 +1,9 @@
 class Employee {
-    emp_id: number;
-    name: string
-    designation: string
-    salary: number
-    project: string
+    emp_id : number | string;
+    name : string 
+    designation : string
+    salary : number
+    project ?: string
     constructor(emp_id: number, name: string, designation: string, salary: number, project: string) {
         this.emp_id = emp_id;
         this.name = name;
