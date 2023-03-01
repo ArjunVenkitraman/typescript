@@ -6,8 +6,8 @@ class Course{
         this.courseName=courseName;
     }
      courseDetails(){
-       console.log(this.courseId);
-       console.log(this.courseName);
+       console.log("Course id is : "+this.courseId);
+       console.log("Course name is : "+this.courseName);
     }
  }
 class Employee extends Course{
@@ -21,9 +21,9 @@ class Employee extends Course{
         this.empDesignation=empDesignation;
     }
     employeeDetails(){
-        console.log(this.empId);
-        console.log(this.empName);
-        console.log(this.empDesignation);
+        console.log("Employee ID is :"+this.empId);
+        console.log("Employee name is : "+this.empName);
+        console.log("Employee Designation is : "+this.empDesignation);
     }
 
 }
@@ -37,12 +37,12 @@ class Admin extends Employee{
         this.adminName=adminName;
     }
     adminDetails(){
-        console.log(this.adminId);
-        console.log(this.adminName);
+        obj.courseDetails();
+        obj.employeeDetails();
+        console.log("AdminId is : "+this.adminId);
+        console.log("Admin name is : "+this.adminName);
     }
 
 }
 let obj = new Admin("101","BCA","E102","Raju","Developer","A101","Ravi")
 obj.adminDetails();
-obj.courseDetails();
-obj.employeeDetails();
