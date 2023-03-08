@@ -8,7 +8,7 @@ function getplayers():Promise<player[]>{
     .then(res=>res.json())
     .then(res=>{
         return res as player[]
-    })
+    }) 
 }
 
 getplayers()
